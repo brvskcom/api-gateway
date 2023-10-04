@@ -13,7 +13,6 @@ import reactor.core.publisher.Mono;
 
 import java.util.List;
 
-@Component
 public class ApiKeyAuthorizationFilter implements GlobalFilter, Ordered {
 
     @Override
